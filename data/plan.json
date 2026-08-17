@@ -1,0 +1,68 @@
+{
+  "object_id": "FXD-LP-PLAN-OBJECT-20260728-01",
+  "version": "0.1",
+  "snapshot": "2026-07-28T07:42:00+09:00",
+  "currency": "JPY",
+  "plans": [
+    {
+      "id": "pro_system",
+      "name": "PRO SYSTEM",
+      "contract_base_price_jpy": 1000000,
+      "core_product_payload": "IDENTICAL",
+      "support": {
+        "channel": "written communication by default",
+        "written_support_duration": "90 days",
+        "initial_reply_target_japanese_business_days": 3,
+        "initial_reply_target_is_resolution_guarantee": false,
+        "remote_installation_assistance": "normally not included"
+      }
+    },
+    {
+      "id": "private_implementation",
+      "name": "PRIVATE IMPLEMENTATION",
+      "contract_base_price_jpy": 2000000,
+      "core_product_payload": "IDENTICAL",
+      "support": {
+        "channel": "written communication by default",
+        "written_support_duration": "ongoing while service remains available",
+        "initial_reply_target_japanese_business_days": 1,
+        "initial_reply_target_is_resolution_guarantee": false,
+        "remote_installation_assistance": "conditional when the manual does not resolve the issue"
+      }
+    }
+  ],
+  "difference_rule": "SUPPORT_ONLY",
+  "core_parity_rules": {
+    "indicators": "IDENTICAL",
+    "tools": "IDENTICAL",
+    "templates_and_settings": "IDENTICAL",
+    "manuals": "IDENTICAL",
+    "signal_logic": "IDENTICAL",
+    "eligible_updates": "IDENTICAL",
+    "instrument_or_timeframe_access": "NO_PLAN_DIFFERENCE_AND_EVIDENCE_GATED",
+    "guarantee_design_if_later_effective": "IDENTICAL"
+  },
+  "japanese_business_day_definition": "Monday through Friday in Japan, excluding Japanese national holidays and announced closure days; JST / UTC+9",
+  "support_exclusions": [
+    "No included live English voice coaching",
+    "No 24/7 real-time support",
+    "No trade advice",
+    "No entry or exit decision service",
+    "No lot-size decision service",
+    "No account management",
+    "No profit or outcome guarantee",
+    "No broker negotiation on the customer's behalf",
+    "No general computer repair"
+  ],
+  "purchase_enabled": false,
+  "quote_enabled": false,
+  "payment_enabled": false,
+  "contract_enabled": false,
+  "delivery_enabled": false,
+  "guarantee_activation_enabled": false,
+  "public_permission": false,
+  "claim_ids": ["CLM-007", "CLM-008", "CLM-009", "CLM-010", "CLM-034"],
+  "parity_ids": ["PAR-02", "PAR-03", "PAR-04", "PAR-05"],
+  "change_control": "Do not change plan names, prices, two-plan structure, identical core payload, or support-only difference without a later exact-byte scoped owner/commercial authority."
+}
+

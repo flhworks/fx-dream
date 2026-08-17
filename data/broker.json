@@ -1,0 +1,30 @@
+{
+  "artifact_id": "FXD-LP-RECOMMENDED-BROKER-LINK-CONTROL-20260818-01",
+  "version": "0.1",
+  "status": "OWNER_SCOPED_DECISION",
+  "placement_section": 7,
+  "broker_name": "Traders Trust",
+  "registration_url": "https://my.traders-trust.com/ja/links/go/2491",
+  "external_link_verification": "OFFICIAL_PARENT_DOMAIN_CONFIRMED_EXACT_REDIRECT_AND_LANGUAGE_UNVERIFIED",
+  "card_title": "Recommended reference broker",
+  "recommendation_copy": "FX-DREAM uses the Traders Trust MT4 environment as its development, testing, and reference baseline. This does not guarantee compatibility with any particular account, server, or operating environment.",
+  "choice_copy": "Using Traders Trust is optional. Another MT4 broker may be considered after FX-DREAM reviews the proposed broker and MT4 environment against the current manuals and product requirements.",
+  "availability_copy": "Broker registration and brokerage services are separate from FX-DREAM. FX-DREAM does not operate or control Traders Trust or any other broker. Review the broker's own terms, eligibility rules, fees, risk disclosures, and privacy policy before registering. Availability and account approval depend on Traders Trust, your country of residence or citizenship, and applicable law. FX-DREAM does not guarantee broker services, trading conditions, platform access, or investment outcomes.",
+  "faq_question": "Do I have to use Traders Trust?",
+  "faq_answer": "No. Traders Trust is the recommended optional reference broker. Another MT4 broker may be considered after FX-DREAM reviews the proposed broker and MT4 environment against the current manuals and product requirements. No broker choice by itself establishes compatibility or approval.",
+  "application_hint": "Traders Trust is recommended but optional. Leave this blank if undecided; another MT4 broker may be considered after environment review.",
+  "terms_copy": "Traders Trust is presented as the recommended optional third-party MT4 broker because FX-DREAM uses its environment as a development, testing, and reference baseline. Its use does not by itself establish compatibility or approval. Any broker, account, server, and MT4 environment remain subject to review against current product requirements. Broker registration and brokerage services form a separate third-party relationship. FX-DREAM does not operate or control Traders Trust or any other broker, and does not guarantee broker services, trading conditions, platform access, or investment outcomes.",
+  "link_label": "Visit Traders Trust registration",
+  "link_note": "Third-party site · opens in a new tab",
+  "new_tab_accessible_label": "Visit Traders Trust registration (opens in a new tab)",
+  "public_claim_boundaries": [
+    "NO_BROKER_PERFORMANCE_CLAIM",
+    "NO_BROKER_SAFETY_GUARANTEE",
+    "NO_WORLDWIDE_AVAILABILITY_CLAIM",
+    "NO_MANDATORY_BROKER_USE",
+    "NO_INVESTMENT_OUTCOME_CLAIM",
+    "NO_BROKER_REGULATORY_STATUS_CLAIM",
+    "NO_CURRENT_EXACT_ENVIRONMENT_COMPATIBILITY_CLAIM"
+  ]
+}
+
