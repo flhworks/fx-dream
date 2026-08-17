@@ -1,0 +1,23 @@
+name: Controlled static QA
+
+on:
+  pull_request:
+  push:
+    branches:
+      - codex/fx-dream-international-static
+
+permissions:
+  contents: read
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build controlled draft
+        run: node scripts/build.mjs
+      - name: Run static QA
+        run: node --test tests/*.test.mjs
