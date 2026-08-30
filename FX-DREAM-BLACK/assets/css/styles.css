@@ -651,6 +651,13 @@ select {
   font-size: .9rem;
 }
 
+.edition-identity {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: .75rem;
+  letter-spacing: .02em;
+}
+
 .reality-panel {
   display: grid;
   gap: 13px;
